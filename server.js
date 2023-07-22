@@ -10,7 +10,6 @@ import path from "path";
 import {fileURLToPath} from "url";
 //configure env
 dotenv.config();
-
 //databse config
 connectDB();
 const __filename = fileURLToPath(import.meta.url);
